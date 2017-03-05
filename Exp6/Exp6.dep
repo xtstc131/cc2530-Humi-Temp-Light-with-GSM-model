@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2978434617</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\gy30\gy30.c</file>
+      <file>$PROJ_DIR$\gy30\bh1750.h</file>
+      <file>$PROJ_DIR$\LCD\codetab.h</file>
+      <file>$PROJ_DIR$\uart\hal_defs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gy30.r51</file>
+      <file>$PROJ_DIR$\LCD\LCD.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\sht11\sht11_1.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Exe\Exp6.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\sht11_2.pbi</file>
+      <file>$PROJ_DIR$\gy30\gy30.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gy30.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sht11_2.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\sht11\sht11.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sht11_1.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\sht11_1.pbi</file>
+      <file>$PROJ_DIR$\uart\hal_types.h</file>
+      <file>$PROJ_DIR$\uart\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\uart\hal_uart.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Exp6.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\uart\hal_uart.h</file>
+      <file>$PROJ_DIR$\sht11\sht11.c</file>
+      <file>$PROJ_DIR$\sht11\sht11_2.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\sht11\sht11_1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sht11.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\sht11\sht11_2.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sht11.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_uart.r51</file>
+      <file>$PROJ_DIR$\uart\hal_board_cfg.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\gy30\gy30.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Exp6.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 22 4 38 36 32 17 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 20 3 19 13 23 15 33 26 27</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 39 20 3 19 13 23 15 33 26 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Exp6.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 12 6 21 35 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sht11\sht11.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 33 27 16 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37 33 27 16 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 15 33 26 37 39 20 3 19 13 27 16 7 11 5 2</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 23 15 33 26 37 39 20 3 19 13 27 16 7 11 5 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sht11\sht11_1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 33 27 7 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37 33 27 7 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sht11\sht11_2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 33 27 29 13</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37 33 27 29 13</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\gy30\gy30.c</file>
+      <file>$PROJ_DIR$\LCD\codetab.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
+      <file>$PROJ_DIR$\Release\Obj\gy30.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\sht11.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\Exp6.hex</file>
+      <file>$PROJ_DIR$\Release\Exe\Exp6.d51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\sht11_1.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\gy30.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\Exp6.a51</file>
+      <file>$PROJ_DIR$\Release\Obj\hal_uart.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\Exp6.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\sht11.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\sht11_1.r51</file>
+      <file>$PROJ_DIR$\Release\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\uart\hal_defs.h</file>
+      <file>$PROJ_DIR$\LCD\LCD.h</file>
+      <file>$PROJ_DIR$\sht11\sht11_1.h</file>
+      <file>$PROJ_DIR$\gy30\gy30.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\sht11\sht11.h</file>
+      <file>$PROJ_DIR$\uart\hal_types.h</file>
+      <file>$PROJ_DIR$\uart\hal_mcu.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\uart\hal_uart.c</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\uart\hal_uart.h</file>
+      <file>$PROJ_DIR$\sht11\sht11.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\sht11\sht11_1.c</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\math.h</file>
+      <file>$PROJ_DIR$\uart\hal_board_cfg.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\gy30\gy30.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 22</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 21 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 12 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\Exp6.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 4 13 5 15 16 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\Exp6.a51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 4 13 5 15 16 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\Exp6.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 11 17 2 6 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 26 18 25 22 27 23 34 29 30</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36 26 18 25 22 27 23 34 29 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sht11\sht11.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 34 30 24 22</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35 34 30 24 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 23 34 29 35 36 26 18 25 22 30 24 20 21 19 1</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27 23 34 29 35 36 26 18 25 22 30 24 20 21 19 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sht11\sht11_1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 34 30 20 22</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35 34 30 20 22</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
